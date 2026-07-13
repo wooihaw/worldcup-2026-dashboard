@@ -6,5 +6,5 @@ import react from "@vitejs/plugin-react";
 // If you're deploying to a custom domain or a "yourname.github.io" root repo, use "/"
 export default defineConfig({
   plugins: [react()],
-  base: "/worldcup-dashboard/",
+  base: "/worldcup-2026-dashboard/",
 });

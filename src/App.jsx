@@ -7,8 +7,8 @@ const FIXTURES = [
   { round: "Quarter-final", a: { name: "Spain", flag: "🇪🇸" }, b: { name: "Belgium", flag: "🇧🇪" }, kickoff: "2026-07-10T19:00:00Z", venue: "SoFi Stadium", city: "Los Angeles" },
   { round: "Quarter-final", a: { name: "Norway", flag: "🇳🇴" }, b: { name: "England", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿" }, kickoff: "2026-07-11T21:00:00Z", venue: "Hard Rock Stadium", city: "Miami" },
   { round: "Quarter-final", a: { name: "Argentina", flag: "🇦🇷" }, b: { name: "Switzerland", flag: "🇨🇭" }, kickoff: "2026-07-12T01:00:00Z", venue: "Arrowhead Stadium", city: "Kansas City" },
-  { round: "Semi-final", a: { name: "France", flag: "🇫🇷" }, b: { name: "TBD", flag: "⚽" }, kickoff: "2026-07-14T18:00:00Z", venue: "AT&T Stadium", city: "Arlington" },
-  { round: "Semi-final", a: { name: "TBD", flag: "⚽" }, b: { name: "TBD", flag: "⚽" }, kickoff: "2026-07-15T19:00:00Z", venue: "Mercedes-Benz Stadium", city: "Atlanta" },
+  { round: "Semi-final", a: { name: "France", flag: "🇫🇷" }, b: { name: "Spain", flag: "🇪🇸" }, kickoff: "2026-07-14T19:00:00Z", venue: "AT&T Stadium", city: "Arlington" },
+  { round: "Semi-final", a: { name: "England", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿" }, b: { name: "Argentina", flag: "🇦🇷" }, kickoff: "2026-07-15T19:00:00Z", venue: "Mercedes-Benz Stadium", city: "Atlanta" },
   { round: "Final", a: { name: "TBD", flag: "⚽" }, b: { name: "TBD", flag: "⚽" }, kickoff: "2026-07-19T19:00:00Z", venue: "MetLife Stadium", city: "East Rutherford" },
 ];
 
