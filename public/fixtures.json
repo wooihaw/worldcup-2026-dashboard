@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-07-13T00:00:00Z",
+  "fixtures": [
+    { "round": "Semi-final", "teamA": "France", "teamB": "Spain", "kickoffUTC": "2026-07-14T19:00:00Z", "venue": "AT&T Stadium", "city": "Arlington" },
+    { "round": "Semi-final", "teamA": "England", "teamB": "Argentina", "kickoffUTC": "2026-07-15T19:00:00Z", "venue": "Mercedes-Benz Stadium", "city": "Atlanta" },
+    { "round": "Final", "teamA": "TBD", "teamB": "TBD", "kickoffUTC": "2026-07-19T19:00:00Z", "venue": "MetLife Stadium", "city": "East Rutherford" }
+  ]
+}

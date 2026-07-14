@@ -1,9 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// IMPORTANT: set this to your GitHub repo name (with leading and trailing slash)
-// e.g. if your repo is github.com/yourname/worldcup-dashboard, use "/worldcup-dashboard/"
-// If you're deploying to a custom domain or a "yourname.github.io" root repo, use "/"
+// Vercel serves your app at the domain root, so base is "/".
+// (If you ever go back to GitHub Pages, change this to "/your-repo-name/" instead.)
 export default defineConfig({
   plugins: [react()],
   base: "/",

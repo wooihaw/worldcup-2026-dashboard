@@ -1,0 +1,34 @@
+name: Update fixtures
+
+on:
+  schedule:
+    # Every 4 hours. GitHub may delay scheduled runs slightly at busy times.
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No API key needed — this hits ESPN's free public scoreboard endpoint.
+      - name: Fetch latest fixtures
+        run: node scripts/update-fixtures.mjs
+
+      - name: Commit updated fixtures.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/fixtures.json
+          git diff --cached --quiet || git commit -m "Auto-update fixtures.json"
+          git push
+        # Pushing to main is all that's needed — Vercel's GitHub integration
+        # detects the new commit and builds + deploys automatically.
