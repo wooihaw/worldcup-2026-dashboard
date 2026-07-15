@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T22:22:40.923Z",
+  "generatedAt": "2026-07-15T01:11:03.576Z",
   "fixtures": [
     {
       "round": "Semi-final",
@@ -19,7 +19,7 @@
     },
     {
       "round": "Final",
-      "teamA": "TBD",
+      "teamA": "Spain",
       "teamB": "TBD",
       "kickoffUTC": "2026-07-19T19:00:00Z",
       "venue": "MetLife Stadium",
