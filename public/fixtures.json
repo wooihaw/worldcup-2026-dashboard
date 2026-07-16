@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T20:47:28.515Z",
+  "generatedAt": "2026-07-16T01:20:03.863Z",
   "fixtures": [
     {
       "round": "Semi-final",
@@ -20,7 +20,7 @@
     {
       "round": "Final",
       "teamA": "Spain",
-      "teamB": "TBD",
+      "teamB": "Argentina",
       "kickoffUTC": "2026-07-19T19:00:00Z",
       "venue": "MetLife Stadium",
       "city": "East Rutherford"
